@@ -19,7 +19,7 @@ All work contained in this project was completed as part of the curriculum for A
 [this link](https://www.alx-intranet.hbtn.io/).
 
 <p align="center">
-  <img src="http://www.holbertonschool.com/holberton-logo.png"
+  <img src="https://africabusinesscommunities.com/Images/Key%20Logos/alx.png"
        alt="ALX School logo"
   >
 </p>
