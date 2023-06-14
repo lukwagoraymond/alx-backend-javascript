@@ -17,8 +17,8 @@ const app = http.createServer((req, res) => {
       countStudents(process.argv[2])
         .then((message) => {
           res.end(`${message.join('\n')}`);
-        }).catch((error) => {
-          res.end(error);
+        }).catch(() => {
+          res.end('Cannot load the database');
         });
       break;
     default:
