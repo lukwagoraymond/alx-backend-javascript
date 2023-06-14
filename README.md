@@ -19,7 +19,7 @@ All work contained in this project was completed as part of the curriculum for A
 [this link](https://www.alx-intranet.hbtn.io/).
 
 <p align="center">
-  <img src="https://africabusinesscommunities.com/Images/Key%20Logos/alx.png"
+  <img src="https://nanodegree.alxafrica.com/wp-content/uploads/2022/10/ALX-Logo-08-1.png"
        alt="ALX School logo"
   >
 </p>
