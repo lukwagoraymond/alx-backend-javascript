@@ -4,7 +4,7 @@ const countStudents = (fileName) => {
   const promise = (resolve, reject) => {
     fs.readFile(fileName, 'utf-8', (err, data) => {
       if (err) {
-        reject(Error('Cannot load the database'));
+        reject(new Error('Cannot load the database'));
       } else {
         let csStudents = [];
         const fields = [];
@@ -16,7 +16,6 @@ const countStudents = (fileName) => {
         const modObj = dataObj.map(listCreate);
         message = `Number of students: ${modObj.length - 1}`;
         returnMsgs.push(message);
-        console.log(modObj);
         console.log(message);
         for (let i = 0; i < modObj.length; i += 1) {
           fields.push(modObj[i][3]);
