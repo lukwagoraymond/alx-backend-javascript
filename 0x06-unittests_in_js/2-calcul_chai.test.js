@@ -1,9 +1,9 @@
 const expect = require('chai').expect;
-const calculateNumber = require("./1-calcul");
+const calculateNumber = require("./2-calcul_chai");
 
 describe("Test CalculateNumber Function", function() {
   it("checks sum type", function() {
-    const test1 = calculateNumber('SUM', 1.3, 4.5);
+    const test1 = calculateNumber('SUM', 1.4, 4.5);
     expect(test1).to.equal(6);
   });
   it("checks Substraction type", function() {
