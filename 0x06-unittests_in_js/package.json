@@ -1,0 +1,19 @@
+{
+  "name": "unittests_in_js",
+  "version": "1.0.0",
+  "description": "Project uses Chai, Mocha & Sinon to do JS Testing",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js",
+    "test": "mocha",
+    "dev": "nodemon --exec babel-node --presets babel-preset-env"
+  },
+  "author": "Raymond Lukwago A.R",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.2"
+  }
+}
